@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: 
+  rgb(34, 32, 32);
+  color: white;
+  margin-bottom: 2rem;
+}
+
+nav a{
+  color: white;
+  padding-left: 1rem;
+  font-size: 26px;
+  gap: 1rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
