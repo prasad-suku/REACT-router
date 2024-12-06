@@ -1,13 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Document</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <form action="/post" method="post">
+      <input type="text" name="name" placeholder="enter the name" />
+      <input
+        type="number"
+        min="0"
+        max="10"
+        name="age"
+        required
+        placeholder="enter the name"
+      />
+      <input
+        type="text"
+        name="education[school]"
+        placeholder="enter the school"
+      />
+      <input
+        type="text"
+        name="education[college]"
+        placeholder="enter the college"
+      />
+      <button type="submit">submit</button>
+    </form>
   </body>
 </html>
